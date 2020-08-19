@@ -1,0 +1,144 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1  {font-size: 66px; font-weight: 600; line-height: 80px;}
+h2  {font-size: 48px; margin-bottom: 30px;}
+h3  {font-size: 48px; margin-bottom: 30px; color: #007BFF;}
+h4  {font-size: 48px; margin-bottom: 30px;}
+
+p{
+    font-size: 18px;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+a i{
+    font-size: 22px; color: #ffffff;
+}
+
+ion-icon {
+    color: #ffffff;
+  }
+
+section{
+    padding: 140px 0;
+}
+
+.topmargin-xs{margin-top: 15px !important;}
+.topmargin-sm{margin-top: 30px !important;}
+.topmargin-lg{margin-top: 60px !important;}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.nav-link {color: #1a1a1a;}
+.nav-link:hover {color: #1a1a1a;}
+
+.navbar-toggler{font-size: 40px;}
+.navbar-toggler:focus {outline: none;}
+
+#hero {
+    background-image: url("https://airmoreno.files.wordpress.com/2015/04/1.jpg");
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 500px;
+    color: #ffffff;
+}
+
+
+
+#hero p {
+    color: #ffffff;
+}
+
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.suma_binaria1-container img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.suma_binaria-container img{
+    position: relative;
+    border-left-width: 40px;
+    margin-right: 40px;
+    min-width: 100px;
+}
+
+.suma_binaria-container:hover{
+    position: relative;
+    -moz-transform: scale(1.1);
+    -webkit-tranform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.bg-dark{background-color: #1a1a1a !important;}
+
+
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.imagensuma{
+    display: block !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.imagenresta{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.imagenmultiplicacion{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.imagendivision{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer{
+    padding: 80px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+#footer a{
+    color: #ffffff;
+}
+
+#footer a:hover{
+    color: #ffffff;
+}
+#footer .list-inline .list-inline.item{
+    padding: 10px 15px;
+}
+
+@media (max-width: 575.98px) { 
+    h1{font-size: 40px; line-height: normal;}
+}
+
+@media (max-width: 767.98px) { ... }
+
+@media (max-width: 991.98px) { ... }
+
+@media (max-width: 1199.98px) { ... }
+
+
+
